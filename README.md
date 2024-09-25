@@ -41,19 +41,37 @@ npm init -y
 #### Flag "-y" with npm init is used to say yes to all questions asked while prompting
 
 ```
-When we say "TypeScript is a superset of JavaScript," it means that TypeScript extends JavaScript by adding new features and capabilities. Specifically:
+When we say "TypeScript is a superset of JavaScript," it means
+that TypeScript extends JavaScript by adding new features and
+capabilities. Specifically:
 
-All JavaScript is TypeScript: Any valid JavaScript code is also valid TypeScript code. You can take any JavaScript code and rename the file from .js to .ts, and it will still work the same way in TypeScript.
+All JavaScript is TypeScript: Any valid JavaScript code is also
+ valid TypeScript code. You can take any JavaScript code and
+ rename the file from .js to .ts, and it will still work the
+ same way in TypeScript.
 
-Additional Features: TypeScript introduces new features that are not present in JavaScript. These include static typing, interfaces, enums, and more. These features help developers write more robust, maintainable, and error-free code.
+Additional Features: TypeScript introduces new features that are
+ not present in JavaScript. These include static typing,
+ interfaces, enums, and more. These features help developers
+ write more robust, maintainable, and error-free code.
 
-Static Typing: One of the most significant additions in TypeScript is static typing. This allows developers to define the types of variables, function parameters, and return values. The TypeScript compiler can then catch type-related errors at compile time, before the code is run.
 
-Type Inference: TypeScript can infer types based on the code, which means you don't always have to explicitly define types.
+Static Typing: One of the most significant additions in
+TypeScript is static typing. This allows developers to define
+the types of variables, function parameters, and return values.
+The TypeScript compiler can then catch type-related errors at
+compile time, before the code is run.
 
-Tooling and IDE Support: TypeScript provides better tooling and IDE support, with features like autocompletion, navigation, and refactoring.
+Type Inference: TypeScript can infer types based on the code,
+which means you don't always have to explicitly define types.
 
-To summarize, TypeScript builds on top of JavaScript by adding extra features that help in catching errors early, improving code quality, and enhancing the development experience, while still being fully compatible with existing JavaScript code.
+Tooling and IDE Support: TypeScript provides better tooling and
+IDE support, with features like autocompletion, navigation, and
+refactoring.
 
-here to go
+To summarize, TypeScript builds on top of JavaScript by adding
+ extra features that help in catching errors early, improving
+ code quality, and enhancing the development experience, while
+ still being fully compatible with existing JavaScript code.
+
 ```
