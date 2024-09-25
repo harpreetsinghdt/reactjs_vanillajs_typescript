@@ -11,7 +11,7 @@ age = 37;
 
 let MyFirstName: string = "Harpreet";
 
-let firstName: string;
+let firstName: string | string[];
 firstName = "Harpreet";
 
 let isImDev: boolean = true;
@@ -50,5 +50,21 @@ let people: {
 // Type Inference
 // typescript internally get and assign the type of variable when it is initialize at the time of declaration.
 let course = "Reactjs with typescript";
-
 // course = 7975
+
+// Union Types
+// By this can define multiple possible types for single variable  which are may be type of variable in future but are not clear now what to assign.
+let mycourse: string | number = "Reactjs with typescript";
+mycourse = 7975;
+
+// Type Aliases
+type Car = {
+  id: number;
+  name: string;
+  year: number;
+  isBrandNew: boolean;
+};
+
+let car: Car;
+
+let carShop: Car[];
