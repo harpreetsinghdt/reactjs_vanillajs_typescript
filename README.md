@@ -6,6 +6,20 @@
 
 ### TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
+#### TypeScript code does not run in the browser, therefore we need to compile typescript code to javascript.
+
+#### When typescript compiled to javascript, all type anotations are removed because javascript does not know about those anotations.
+
+#### During compilation step, it will notify about the errors.
+
+#### after successful compilation it will produce code to which is ready to run in browser
+
+#### To invoke the compiler here is the command to run
+
+```
+npx tsc
+```
+
 [Typescript](https://www.typescriptlang.org/)
 
 ### TypeScript is available as a package on the npm registry available as "typescript".
