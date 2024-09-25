@@ -54,4 +54,6 @@ Type Inference: TypeScript can infer types based on the code, which means you do
 Tooling and IDE Support: TypeScript provides better tooling and IDE support, with features like autocompletion, navigation, and refactoring.
 
 To summarize, TypeScript builds on top of JavaScript by adding extra features that help in catching errors early, improving code quality, and enhancing the development experience, while still being fully compatible with existing JavaScript code.
+
+here to go
 ```
