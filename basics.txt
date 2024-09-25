@@ -10,6 +10,7 @@ let myAge: number = 37;
 let age: number;
 age = 37;
 
+let MyFirstName = "Harpreet";
 let MyFirstName: string = "Harpreet";
 
 let firstName: string | string[];
