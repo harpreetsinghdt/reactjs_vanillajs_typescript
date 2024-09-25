@@ -36,4 +36,4 @@ npm install -g typescript
 npm init -y
 ```
 
-#### -y flag is used to say yes to all questions asked while prompting
+#### Flag "-y" with npm init is used to say yes to all questions asked while prompting
