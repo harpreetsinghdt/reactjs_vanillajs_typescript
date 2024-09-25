@@ -46,3 +46,9 @@ let people: {
   name: string;
   age: number;
 }[];
+
+// Type Inference
+// typescript internally get and assign the type of variable when it is initialize at the time of declaration.
+let course = "Reactjs with typescript";
+
+// course = 7975
