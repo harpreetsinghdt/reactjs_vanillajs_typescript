@@ -1,3 +1,4 @@
+let basics = `
 // Primitives: number, string, boolean, null, undefined, symbol
 // More Complex types: arrays, objects
 // Function types, parameters
@@ -93,3 +94,5 @@ console.log(updatedArr);
 console.log(stringArr);
 
 // updatedArr[0].split("");
+
+`

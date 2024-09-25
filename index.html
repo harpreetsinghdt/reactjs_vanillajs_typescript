@@ -4,8 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React + TypeScript</title>
-    <script src="with-typescript.js"></script>
+    <script src="basics.js"></script>
+    <script src="basics.txt"></script>
+    <script src="generics.txt"></script>
   </head>
 
-  <body></body>
+  <body>
+    <div style="display: flex">
+      <div>
+        <h2>Primitives & Types in TypeScript</h2>
+        <div id="content-left"></div>
+      </div>
+      <div>
+        <h2>Generic Types in TypeScript</h2>
+        <div id="content"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    document.getElementById("content-left").innerText = basics;
+    document.getElementById("content").innerText = text;
+  </script>
 </html>
